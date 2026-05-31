@@ -1,19 +1,11 @@
 # ========================================================
-# ARCHIVOS Y CARPETAS EXCLUIDOS (Lista Negra)
+# ARCHIVOS Y CARPETAS EXCLUIDOS (No se subirán a GitHub)
 # ========================================================
-
-# Ignorar cuadernos sin título o temporales
 Untitled0*
-.ipynb_checkpoints/
-
-# Ignorar archivos y carpetas del proyecto The Good Doctor
 The_Good_Doctor_IA_DeepLearning_v1*
 The_Good_Doctor_IA_DeepLearning_v2*
 Good_Doctor_Clinico_Multiclase*
 
-# ========================================================
-# REGLAS ESTÁNDAR PARA COLAB / PYTHON (Opcional pero recomendado)
-# ========================================================
+# Exclusión de temporales de Colab
+.ipynb_checkpoints/
 __pycache__/
-*.pyc
-.env

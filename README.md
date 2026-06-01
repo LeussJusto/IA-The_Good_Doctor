@@ -19,6 +19,11 @@ El objetivo principal es construir modelos capaces de:
 * Simular razonamiento médico mediante pipelines Two-Stage
 
 ---
+# Dataset y Modelos: 
+
+Dataset: https://www.kaggle.com/datasets/uom190346a/synthetic-clinical-tabular-dataset
+
+Modelos: https://huggingface.co/leuss1224/TheGoodDoctor_Models
 
 # Arquitectura General del Proyecto
 
@@ -36,10 +41,9 @@ The_Good_Doctor/
 ├── DeepLearning_v2/   (En desarrollo)
 │
 ├── datasets/
-├── notebooks/
 ├── modelos/
 ├── logs/
-└── resultados/
+
 ```
 
 ---
